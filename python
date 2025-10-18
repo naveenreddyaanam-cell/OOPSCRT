@@ -1,0 +1,7 @@
+numbers_list=list(map(int,input().split()))
+l=len(numbers_list)
+m=numbers_list[0]
+for i in range(1,l):
+    if numbers_list[i]>m:
+        m=numbers_list[i]
+print(m)
